@@ -3,11 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet"href ="stle.css">
-    <title>Document</title>
+    <link rel ="stylesheet"href ="style.css">
+    <title>RAMEN RATER</title>
 </head>
 <body>
+   <header> 
+    <h1>Ramen Rater</h1>
+    </header>
     
+<div id="ramen-list"></div>
+<section id="tooo">
+<div id="menu-details"></div>
+</section>
+<h1>Add new ramen</h1>
+<section id="thre">
+<form id ="Ramen-form">
+    <label for ="ramen-name">Name:</label> <br>
+    <input type="text" id="Ramen-name"name="name" placeholder=""required> <br>
+
+    <label for ="restuarant-name">restuarant:</label> <br>
+    <input type ="text" id="restuarant-name"name="restuarant" placeholder=""required> <br>
+
+    <label for ="ramen-image">url:</label> <br>
+    <input type="url"id="ramen-image"name="image" placeholder=""required> <br>
+
+    <label for ="ramen-rating">rating</label> <br>
+    <input type ="number"id="ramen-rating"name="rating" placeholder=""required> <br>
+
+    <label for ="ramen-comment">comment</label> <br>
+    <input type ="text" id="ramen-comment"name="comment"placeholder=""required> <br>
+
+    <button type="submit">create</button>
+    
+    </form>
+</section>
     <script src="index.js"></script>
 </body>
 </html>
